@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<testitem item_name="sim_status_test" item_action="MultipleSimStatusCheck" />
+	<testitem item_name="SDCard" item_action="TCardL8650" />
+	<testitem item_name="proximity_sensor_test" item_action="Proximity_old_nocal"/>
+	<testitem item_name="light_sensor_test" item_action="LightSensor_old"/>
+	<testitem item_name="charger_in_test" item_action="ChargeInAndOutActivity" />
+	<testitem item_name="back_camera2" item_action="BackCamera2" />
+	<testitem item_name="finger" item_action="SensorTestToolActivity" />
+</resources>
