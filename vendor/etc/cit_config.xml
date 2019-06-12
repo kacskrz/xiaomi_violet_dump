@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<parameter>
+  <item name="LED">
+    <param key="hasBacklight" value="true"/>
+    <param key="hasWhiteLED" value="true"/>
+    <param key="hasRedLED" value="false"/>
+    <param key="hasGreenLED" value="false"/>
+    <param key="hasBlueLED" value="false"/>
+    <param key="hasBackTorch" value="false"/>
+    <param key="hasBackTorch2" value="false"/>
+    <param key="hasBackTorch1_2" value="true"/>
+    <param key="hasFrontTorch" value="false"/>
+    <param key="hasKeyLED" value="false"/>
+    <param key="BackTorchCOMFile2" value="sys/class/leds/led:switch_1/brightness"/>
+  </item>
+  <item name="MIC">
+    <param key="Mic2Vol" value="-2"/>
+  </item>
+   <item name="LightSensor">
+    <param key="BackLightFile" value="/sys/class/backlight/backlight/brightness"/>
+  </item>
+  <item name="SoftVersion">
+    <param key="TestVeriFiedBootState" value="true"/>
+  </item>
+  <item name="SecretCode">
+     <param key="WifiLogVer" value="V2"/>
+  </item>
+ <item name="Config">
+     <param key="ConnectorType" value="Type-C"/>
+ </item>
+ <item name="Touchpanel">
+     <param key="DiagonalLineRadius" value="80"/>
+     <param key="PointTestYTolerant" value="90"/>
+ </item>
+ <item name="LED">
+     <param key="LedMaxBrightness" value="175"/>
+ </item>
+</parameter>
